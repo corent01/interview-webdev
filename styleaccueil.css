@@ -10,6 +10,14 @@ h1 {
           SunSans-Regular, sans-serif;
           color: orange;
         }
+.roundimage {
+          overflow:hidden;
+         -webkit-border-radius:25px;
+         -moz-border-radius:25px;
+         border-radius:25px;
+         width:100px;
+         height:20px;
+        }
 ul.navbar {
   list-style-type: none;
    padding: 0;
