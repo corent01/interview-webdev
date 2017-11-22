@@ -1,0 +1,73 @@
+
+body {
+padding-left: 50px;
+font-family: Georgia, "Times New Roman",
+          Times, serif;
+color: grey;
+background-color: black;
+  }
+nav {
+text-align: left;
+display: flex;
+flex-basis: auto;
+flex-direction: row;
+}
+ul.navbar {
+list-style-type: none;
+padding: 20px;
+padding-left: 15px;
+background-image:url(Web-developer.jpg);
+background-repeat:no-repeat;
+background-size: auto;
+overflow:hidden;
+border-radius:10px;
+}
+ul.navbar li {
+display: inline-flex;
+background-image:linear-gradient(grey, black);
+margin: 10px;
+padding: 10px;
+border-right: 10px solid black
+overflow:hidden;
+-webkit-border-radius:15px;
+-moz-border-radius:15px;
+border-radius:7px;
+width:80px;
+height:20px;
+padding-left: 25px;
+text-align: justify;
+}
+ul.navbar a {
+
+ text-decoration: none;
+}
+a:link {
+color: lightgrey;
+font-size: 15px;
+}
+a:visited {
+color: White;
+font-size: 15px;
+}
+h1 {
+font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif;
+padding-top:;
+color: lightgrey;
+}
+img {
+
+	max-width: 100%;
+	height: auto;
+}
+.roundimageaccueil {
+  float: right;
+  margin-right: auto;
+  margin-top: auto;
+overflow:hidden;
+-webkit-border-radius:50px;
+-moz-border-radius:50px;
+border-radius:20px;
+width:200px;
+height:200px;
+}
