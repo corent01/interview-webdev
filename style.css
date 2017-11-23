@@ -7,7 +7,7 @@ color: black;
 background-color: ;
 background-repeat: space;
   }
-#pageanim {
+.pageanim {
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
   -webkit-animation-duration: 1s;
@@ -201,6 +201,20 @@ border-radius:60px;
 width:200px;
 height:200px;
 }
+#reponse {
+  font-style: italic;
+  font-family: monospace;
+
+}
+
+
+}
+#borderinterview {
+background-color: lightgrey;
+  opacity: 1;
+  color: black !important;
+}
+
 
 /*------Animations-------*/
 
