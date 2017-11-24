@@ -158,8 +158,10 @@ img {
   display: inline;
   margin: auto;
   margin-top: auto;
-  max-width: 25%;
-  height: 25%;
+  max-width: 50px;
+  max-height: 50px;
+  min-width: 10%;
+  min-height: 10%;
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
   -webkit-animation-duration: 1s;
