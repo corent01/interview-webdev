@@ -4,8 +4,7 @@ padding-left: 10px;
 font-family: Georgia, "Times New Roman",
           Times, serif;
 color: black;
-background-color: ;
-background-repeat: space;
+background-color: white;
   }
 .pageanim {
   -webkit-animation-name: zoomIn;
@@ -15,10 +14,9 @@ background-repeat: space;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-.makingofpage {
-  background-image: url();
-  background-size: ;
-}
+
+/*-------------------MENU-----------------*/
+
 nav {
 display: flex;
 flex-basis: auto;
@@ -121,6 +119,9 @@ font-size: 15px;
 a:visited{
 color: white;
 }
+
+/*----------------------------------------------*/
+
 h1 {
 font-family: Helvetica, Geneva, Arial,
         SunSans-Regular, sans-serif;
@@ -139,6 +140,9 @@ h3 {
   padding-top:;
   color: grey;
 }
+
+/*------------------------Images-----------------------*/
+
 img {
   border-radius:18px;
 	max-width: 100%;
@@ -151,8 +155,11 @@ img {
   animation-fill-mode: both;
 }
 .socialnetwork{
+  display: inline;
+  margin: auto;
+  margin-top: auto;
   max-width: 25%;
-  height: auto;
+  height: 25%;
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
   -webkit-animation-duration: 1s;
@@ -162,7 +169,7 @@ img {
 }
 .roundimageaccueil {
   float: right;
-  margin-right: auto;
+  margin: auto;
   margin-top: auto;
 overflow:hidden;
 -webkit-border-radius:50px;
@@ -217,20 +224,34 @@ border-radius:100px;
 width:200px;
 height:200px;
 }
+
+/*--------------------*/
+
 #reponse {
   font-style: italic;
   font-family: monospace;
-
 }
 
+/*----------Border Interview-------*/
+
+.pageanim {
+  color: black !important;
+  opacity: 5 !important;
+  text-emphasis-color: black;
 
 }
 #borderinterview {
-background-color: lightgrey;
-  opacity: 1;
-  color: black !important;
+padding-right: 10px;
+background-color:;
+border-radius: 25px;
+opacity: ;
+-webkit-animation-name: zoomIn;
+animation-name: zoomIn;
+-webkit-animation-duration: 1s;
+animation-duration: 1s;
+-webkit-animation-fill-mode: both;
+animation-fill-mode: both;
 }
-
 
 /*------Animations-------*/
 
