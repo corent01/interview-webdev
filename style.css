@@ -1,6 +1,6 @@
 
 body {
-padding-left: 50px;
+padding-left: 10px;
 font-family: Georgia, "Times New Roman",
           Times, serif;
 color: black;
@@ -133,10 +133,26 @@ font-family: Helvetica, Geneva, Arial,
 padding-top:;
 color: grey;
 }
+h3 {
+  font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif;
+  padding-top:;
+  color: grey;
+}
 img {
   border-radius:18px;
 	max-width: 100%;
 	height: auto;
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1.3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.socialnetwork{
+  max-width: 25%;
+  height: auto;
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
   -webkit-animation-duration: 1s;
@@ -151,7 +167,7 @@ img {
 overflow:hidden;
 -webkit-border-radius:50px;
 -moz-border-radius:50px;
-border-radius:65px;
+border-radius:100px;
 width:200px;
 height:200px;
 }
@@ -162,7 +178,7 @@ height:200px;
 overflow:hidden;
 -webkit-border-radius:50px;
 -moz-border-radius:50x;
-border-radius:60px;
+border-radius:100px;
 width:200px;
 height:200px;
 :300%;
@@ -186,7 +202,7 @@ height:200px;
 overflow:hidden;
 -webkit-border-radius:50px;
 -moz-border-radius:50px;
-border-radius:60px;
+border-radius:100px;
 width:200px;
 height:200px;
 }
@@ -197,7 +213,7 @@ height:200px;
 overflow:hidden;
 -webkit-border-radius:50px;
 -moz-border-radius:50px;
-border-radius:60px;
+border-radius:100px;
 width:200px;
 height:200px;
 }
