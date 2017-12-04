@@ -22,7 +22,7 @@ ul.navbar {
   list-style-type: none;
   padding: 20px;
   padding-left: 15px;
-  background-image: url(./assets/img/Web-developer.jpg);
+  background-image: url("../img/Web-developer.jpg");
   background-repeat: no-repeat;
   background-size: auto;
   overflow: hidden;
